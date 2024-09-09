@@ -306,9 +306,9 @@ const StyledProject = styled.li`
 const Featured = () => {
   const getData = async () =>{
     const filePaths = [
-      'content/featured/ChattingApp/index.md',
-      'content/featured/QueryApp/index.md',
-      'content/featured/rpsGame/index.md'
+      '/content/featured/ChattingApp/index.md',
+      '/content/featured/QueryApp/index.md',
+      '/content/featured/rpsGame/index.md'
     ];
     const markdownFiles = await Promise.all(
       filePaths.map(async filePath => {

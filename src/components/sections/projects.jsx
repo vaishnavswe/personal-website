@@ -170,9 +170,9 @@ const StyledProject = styled.li`
 const Projects = () => {
   const loadProjectsMarkdownFiles = async () => {
     const filePaths = [
-      'content/projects/imdb_scraper.md',
-      'content/projects/number_guessing.md',
-      'content/projects/todolist.md'
+      '/content/projects/imdb_scraper.md',
+      '/content/projects/number_guessing.md',
+      '/content/projects/todolist.md'
     ];
     const markdownFiles = await Promise.all(
       filePaths.map(async filePath => {

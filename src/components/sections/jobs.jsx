@@ -166,8 +166,8 @@ const StyledTabPanel = styled.div`
 const Jobs = () => {
   const loadJobsMarkdownFiles = async () => {
     const filePaths = [
-      'content/jobs/Arizon/index.md',
-      'content/jobs/Smile/index.md'
+      '/content/jobs/Arizon/index.md',
+      '/content/jobs/Smile/index.md'
     ];
     const markdownFiles = await Promise.all(
       filePaths.map(async filePath => {
