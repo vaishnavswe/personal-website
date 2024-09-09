@@ -47,7 +47,7 @@ export const siteMetadata = {
   title: 'Vaishnav Manoj',
   description: 'Vaishnav Manoj is a junior at the University of Massachusetts Boston, majoring in Computer Science. He focuses on mobile app development and web development.',
   siteUrl: 'https://personal-website-ruby-alpha.vercel.app/',
-  image: 'static/og.png',
+  image: '/static/og.png',
   instagramUsername: 'vaishnavv_m',
 }
 
