@@ -179,7 +179,6 @@ const Jobs = () => {
     );
 
     let sortedFiles = markdownFiles.sort((a, b) => Number(b.frontmatter.date) - Number(a.frontmatter.date));
-    console.log(sortedFiles);
     return sortedFiles;
   };
 

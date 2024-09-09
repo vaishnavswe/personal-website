@@ -182,6 +182,7 @@ const Projects = () => {
         return { frontmatter, html };
       })
     );
+    console.log(markdownFiles);
 
     let sortedFiles = markdownFiles.sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
     return sortedFiles;
