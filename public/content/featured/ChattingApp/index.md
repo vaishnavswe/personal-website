@@ -3,7 +3,7 @@ date: '1'
 title: 'Chatting App'
 cover: 'content\featured\ChattingApp\chatapp.png'
 github: 'https://github.com/vaishnavswe/ChattingApplication'
-external: 'https://github.com/vaishnavswe/ChattingApplication'
+external: ''
 tech:
   - VS Code
   - Java

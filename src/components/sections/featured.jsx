@@ -308,7 +308,7 @@ const Featured = () => {
     const filePaths = [
       '/content/featured/ChattingApp/index.md',
       '/content/featured/QueryApp/index.md',
-      '/content/featured/rpsGame/index.md'
+      '/content/featured/weather-app/index.md'
     ];
     const markdownFiles = await Promise.all(
       filePaths.map(async filePath => {

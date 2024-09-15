@@ -3,7 +3,7 @@ date: '2'
 title: 'Search Query Program'
 cover: 'content\featured\QueryApp\demo.png'
 github: 'https://github.com/vaishnavswe/Search-Bar-program'
-external: 'https://github.com/vaishnavswe/Search-Bar-program'
+external: ''
 tech:
   - VS Code
   - HTML & CSS
